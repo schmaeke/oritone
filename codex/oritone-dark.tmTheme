@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Oritone Dark TextMate theme.
+  Version: 0.1.0
+  SPDX-License-Identifier: MIT
+  Copyright (c) 2026 Oritone contributors
+  Reference: Okabe & Ito color-blind-friendly palette.
+  https://siegal.bio.nyu.edu/color-palette/
+
+  Opaque variant: includes a solid global background and line-highlight color.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Oritone Dark</string>
+	<key>author</key>
+	<string>Oritone contributors</string>
+	<key>uuid</key>
+	<string>9fc5e7de-1247-5ad5-ab7b-535fde54aeaf</string>
+	<key>semanticClass</key>
+	<string>theme.oritone.dark</string>
+	<key>colorSpace</key>
+	<string>sRGB</string>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>license</key>
+	<string>MIT</string>
+	<key>comment</key>
+	<string>Oritone theme. Reference: Okabe &amp; Ito color-blind-friendly palette.</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Global</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e7e2d8</string>
+				<key>caret</key>
+				<string>#dcc566</string>
+				<key>selection</key>
+				<string>#283036</string>
+				<key>selectionForeground</key>
+				<string>#fbf7ef</string>
+				<key>inactiveSelection</key>
+				<string>#354048</string>
+				<key>invisibles</key>
+				<string>#5b6368</string>
+				<key>findHighlight</key>
+				<string>#3b3322</string>
+				<key>findHighlightForeground</key>
+				<string>#fbf7ef</string>
+				<key>bracketContentsForeground</key>
+				<string>#fbf7ef</string>
+				<key>bracketsForeground</key>
+				<string>#b9b4ac</string>
+				<key>tagsForeground</key>
+				<string>#dc6c43</string>
+				<key>guide</key>
+				<string>#283036</string>
+				<key>activeGuide</key>
+				<string>#48545c</string>
+				<key>stackGuide</key>
+				<string>#48545c</string>
+				<key>background</key>
+				<string>#15191c</string>
+				<key>lineHighlight</key>
+				<string>#1a2024</string>
+				<key>gutter</key>
+				<string>#15191c</string>
+				<key>gutterForeground</key>
+				<string>#637079</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#989d9c</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Documentation comments</string>
+			<key>scope</key>
+			<string>comment.block.documentation, comment.line.documentation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#737b7d</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unused comments</string>
+			<key>scope</key>
+			<string>comment.unused</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#637079</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>scope</key>
+			<string>string, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca86aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String escapes</string>
+			<key>scope</key>
+			<string>constant.character.escape, string.regexp, string.regexp keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc6c43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String symbols and paths</string>
+			<key>scope</key>
+			<string>string.other.link, string.special, string.special.path, constant.other.symbol</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca86aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric, constant.numeric.integer, constant.numeric.float</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language constants</string>
+			<key>scope</key>
+			<string>constant.language, constant.language.boolean, constant.language.null, constant.language.undefined</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in constants</string>
+			<key>scope</key>
+			<string>constant.other, constant.builtin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable, variable.other, variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e7e2d8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in variables</string>
+			<key>scope</key>
+			<string>variable.language, variable.builtin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parameters</string>
+			<key>scope</key>
+			<string>variable.parameter, variable.parameter.function, meta.function.parameters variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc6c43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fields and members</string>
+			<key>scope</key>
+			<string>variable.other.member, variable.other.property, meta.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d4cec3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Private members</string>
+			<key>scope</key>
+			<string>variable.other.member.private, variable.other.property.private</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b9b4ac</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function, meta.function-call entity.name.function, variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in functions</string>
+			<key>scope</key>
+			<string>support.function.builtin, support.function.construct, keyword.other.special-method</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Methods</string>
+			<key>scope</key>
+			<string>entity.name.function.method, meta.method-call entity.name.function, support.function.method</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Macros and decorators</string>
+			<key>scope</key>
+			<string>entity.name.function.macro, support.function.macro, meta.decorator, punctuation.decorator, variable.annotation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Types and classes</string>
+			<key>scope</key>
+			<string>entity.name.type, entity.name.class, entity.name.struct, entity.name.enum, support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56a6cf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in types</string>
+			<key>scope</key>
+			<string>support.type.builtin, entity.name.type.builtin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56a6cf</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constructors</string>
+			<key>scope</key>
+			<string>entity.name.function.constructor, entity.name.type.constructor, support.function.constructor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Enum variants</string>
+			<key>scope</key>
+			<string>entity.name.type.enum.variant, variable.other.enummember</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca86aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Namespaces and modules</string>
+			<key>scope</key>
+			<string>entity.name.namespace, entity.name.module, support.module, variable.other.module</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keywords</string>
+			<key>scope</key>
+			<string>keyword, storage, storage.type, storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcc566</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Control flow</string>
+			<key>scope</key>
+			<string>keyword.control, keyword.control.conditional, keyword.control.loop, keyword.control.repeat, keyword.control.return</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcc566</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Imports</string>
+			<key>scope</key>
+			<string>keyword.control.import, keyword.control.export, keyword.other.using, keyword.other.namespace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Exceptions</string>
+			<key>scope</key>
+			<string>keyword.control.exception, keyword.control.trycatch, keyword.control.throw</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc6c43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.operator, keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.logical, operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b9b4ac</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword operators</string>
+			<key>scope</key>
+			<string>keyword.operator.new, keyword.operator.expression, keyword.operator.word</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcc566</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation, meta.brace, meta.delimiter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b9b4ac</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Brackets</string>
+			<key>scope</key>
+			<string>punctuation.section, punctuation.definition, punctuation.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b9b4ac</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.annotation, punctuation.definition.template-expression, punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup headings</string>
+			<key>scope</key>
+			<string>markup.heading, markup.heading entity.name, entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56a6cf</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup heading punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.heading, punctuation.definition.list_item</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#737b7d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup bold</string>
+			<key>scope</key>
+			<string>markup.bold, punctuation.definition.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fbf7ef</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup italic</string>
+			<key>scope</key>
+			<string>markup.italic, punctuation.definition.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e7e2d8</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup quote</string>
+			<key>scope</key>
+			<string>markup.quote, punctuation.definition.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#737b7d</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup raw</string>
+			<key>scope</key>
+			<string>markup.raw, markup.raw.block, markup.inline.raw, markup.fenced_code.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup links</string>
+			<key>scope</key>
+			<string>markup.underline.link, string.other.link, meta.link.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56a6cf</string>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup link text</string>
+			<key>scope</key>
+			<string>meta.link.reference, markup.link.description, string.other.link.title</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca86aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup lists</string>
+			<key>scope</key>
+			<string>markup.list, markup.list.numbered, markup.list.unnumbered</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag, meta.tag, support.class.component</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc6c43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name, meta.attribute, variable.other.key, support.type.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON/YAML keys</string>
+			<key>scope</key>
+			<string>meta.mapping.key, meta.object-literal.key, string.unquoted.key, support.type.property-name.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff headers</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header, meta.diff.index, meta.diff.range, markup.heading.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff added</string>
+			<key>scope</key>
+			<string>markup.inserted, meta.diff.header.from-file, punctuation.definition.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+				<key>background</key>
+				<string>#1d332c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff removed</string>
+			<key>scope</key>
+			<string>markup.deleted, meta.diff.header.to-file, punctuation.definition.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06a5f</string>
+				<key>background</key>
+				<string>#3a2422</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff changed</string>
+			<key>scope</key>
+			<string>markup.changed, punctuation.definition.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dcc566</string>
+				<key>background</key>
+				<string>#36311f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff unchanged</string>
+			<key>scope</key>
+			<string>meta.diff.context, markup.ignored</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b9b4ac</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid, invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06a5f</string>
+				<key>background</key>
+				<string>#402725</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated, entity.name.tag.deprecated, support.type.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#989d9c</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Debug / trace</string>
+			<key>scope</key>
+			<string>markup.traceback, markup.error, message.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06a5f</string>
+				<key>background</key>
+				<string>#402725</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust lifetimes</string>
+			<key>scope</key>
+			<string>entity.name.lifetime, storage.modifier.lifetime, punctuation.definition.lifetime</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ca86aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust labels</string>
+			<key>scope</key>
+			<string>entity.name.label, variable.label</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python decorators</string>
+			<key>scope</key>
+			<string>meta.function.decorator.python, entity.name.function.decorator.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex groups</string>
+			<key>scope</key>
+			<string>string.regexp constant.other.character-class, string.regexp punctuation.definition.group</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56a6cf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shell variables</string>
+			<key>scope</key>
+			<string>variable.other.normal.shell, variable.other.special.shell, punctuation.definition.variable.shell</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TOML/INI keys</string>
+			<key>scope</key>
+			<string>support.type.property-name.toml, entity.name.tag.toml, keyword.key.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS properties</string>
+			<key>scope</key>
+			<string>support.type.property-name.css, meta.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS values</string>
+			<key>scope</key>
+			<string>support.constant.property-value.css, support.constant.color.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rainbow punctuation 1</string>
+			<key>scope</key>
+			<string>punctuation.section.braces.begin, punctuation.section.braces.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d89a43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rainbow punctuation 2</string>
+			<key>scope</key>
+			<string>punctuation.section.brackets.begin, punctuation.section.brackets.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77c5e8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rainbow punctuation 3</string>
+			<key>scope</key>
+			<string>punctuation.section.parens.begin, punctuation.section.parens.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#43b08a</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

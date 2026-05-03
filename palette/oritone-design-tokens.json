@@ -1,0 +1,674 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "oritone": {
+    "$description": "Oritone color tokens. SPDX-License-Identifier: MIT. Reference: Okabe & Ito color-blind-friendly palette.",
+    "meta": {
+      "version": "0.1.0",
+      "license": "MIT",
+      "reference": "Okabe & Ito color-blind-friendly palette",
+      "reference_url": "https://siegal.bio.nyu.edu/color-palette/"
+    },
+    "reference": {
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "orange": {
+        "$type": "color",
+        "$value": "#E69F00"
+      },
+      "sky_blue": {
+        "$type": "color",
+        "$value": "#56B4E9"
+      },
+      "bluish_green": {
+        "$type": "color",
+        "$value": "#009E73"
+      },
+      "yellow": {
+        "$type": "color",
+        "$value": "#F0E442"
+      },
+      "blue": {
+        "$type": "color",
+        "$value": "#0072B2"
+      },
+      "vermillion": {
+        "$type": "color",
+        "$value": "#D55E00"
+      },
+      "reddish_purple": {
+        "$type": "color",
+        "$value": "#CC79A7"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "dark": {
+      "neutral": {
+        "bg0": {
+          "$type": "color",
+          "$value": "#0f1114"
+        },
+        "bg1": {
+          "$type": "color",
+          "$value": "#15191c"
+        },
+        "bg2": {
+          "$type": "color",
+          "$value": "#1d2327"
+        },
+        "bg3": {
+          "$type": "color",
+          "$value": "#283036"
+        },
+        "bg4": {
+          "$type": "color",
+          "$value": "#354048"
+        },
+        "bg5": {
+          "$type": "color",
+          "$value": "#48545c"
+        },
+        "bg6": {
+          "$type": "color",
+          "$value": "#637079"
+        },
+        "fg0": {
+          "$type": "color",
+          "$value": "#fbf7ef"
+        },
+        "fg1": {
+          "$type": "color",
+          "$value": "#e7e2d8"
+        },
+        "fg2": {
+          "$type": "color",
+          "$value": "#d4cec3"
+        },
+        "fg3": {
+          "$type": "color",
+          "$value": "#b9b4ac"
+        },
+        "fg4": {
+          "$type": "color",
+          "$value": "#989d9c"
+        },
+        "fg5": {
+          "$type": "color",
+          "$value": "#737b7d"
+        },
+        "fg6": {
+          "$type": "color",
+          "$value": "#5b6368"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "#989d9c"
+        },
+        "muted2": {
+          "$type": "color",
+          "$value": "#737b7d"
+        },
+        "muted3": {
+          "$type": "color",
+          "$value": "#637079"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#354048"
+        }
+      },
+      "accent": {
+        "orange": {
+          "$type": "color",
+          "$value": "#d89a43"
+        },
+        "sky": {
+          "$type": "color",
+          "$value": "#77c5e8"
+        },
+        "green": {
+          "$type": "color",
+          "$value": "#43b08a"
+        },
+        "yellow": {
+          "$type": "color",
+          "$value": "#e5d264"
+        },
+        "blue": {
+          "$type": "color",
+          "$value": "#56a6cf"
+        },
+        "vermillion": {
+          "$type": "color",
+          "$value": "#dc6c43"
+        },
+        "rose": {
+          "$type": "color",
+          "$value": "#ca86aa"
+        },
+        "red": {
+          "$type": "color",
+          "$value": "#e06a5f"
+        },
+        "amber": {
+          "$type": "color",
+          "$value": "#dcc566"
+        },
+        "cyan": {
+          "$type": "color",
+          "$value": "#5fbfc0"
+        }
+      },
+      "semantic": {
+        "background_lower": {
+          "$type": "color",
+          "$value": "#0f1114"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#15191c"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "#1d2327"
+        },
+        "surface_raised": {
+          "$type": "color",
+          "$value": "#283036"
+        },
+        "surface_highest": {
+          "$type": "color",
+          "$value": "#354048"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#354048"
+        },
+        "divider": {
+          "$type": "color",
+          "$value": "#354048"
+        },
+        "text_strong": {
+          "$type": "color",
+          "$value": "#fbf7ef"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "#e7e2d8"
+        },
+        "text_subtle": {
+          "$type": "color",
+          "$value": "#b9b4ac"
+        },
+        "text_muted": {
+          "$type": "color",
+          "$value": "#989d9c"
+        },
+        "text_disabled": {
+          "$type": "color",
+          "$value": "#737b7d"
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "#56a6cf"
+        },
+        "primary_hover": {
+          "$type": "color",
+          "$value": "#77c5e8"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "#ca86aa"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "#43b08a"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "#dcc566"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "#e06a5f"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "#77c5e8"
+        },
+        "selection": {
+          "$type": "color",
+          "$value": "#283036"
+        },
+        "selection_strong": {
+          "$type": "color",
+          "$value": "#354048"
+        },
+        "highlight": {
+          "$type": "color",
+          "$value": "#22292b"
+        },
+        "focus_ring": {
+          "$type": "color",
+          "$value": "#dcc566"
+        },
+        "cursor": {
+          "$type": "color",
+          "$value": "#dcc566"
+        },
+        "cursor_text": {
+          "$type": "color",
+          "$value": "#15191c"
+        }
+      },
+      "terminal": {
+        "background": {
+          "$type": "color",
+          "$value": "#15191c"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "#e7e2d8"
+        },
+        "cursor": {
+          "$type": "color",
+          "$value": "#dcc566"
+        },
+        "cursor_text": {
+          "$type": "color",
+          "$value": "#15191c"
+        },
+        "selection_background": {
+          "$type": "color",
+          "$value": "#283036"
+        },
+        "selection_foreground": {
+          "$type": "color",
+          "$value": "#fbf7ef"
+        },
+        "ansi": {
+          "black": {
+            "$type": "color",
+            "$value": "#0f1114"
+          },
+          "red": {
+            "$type": "color",
+            "$value": "#e06a5f"
+          },
+          "green": {
+            "$type": "color",
+            "$value": "#43b08a"
+          },
+          "yellow": {
+            "$type": "color",
+            "$value": "#dcc566"
+          },
+          "blue": {
+            "$type": "color",
+            "$value": "#56a6cf"
+          },
+          "magenta": {
+            "$type": "color",
+            "$value": "#ca86aa"
+          },
+          "cyan": {
+            "$type": "color",
+            "$value": "#5fbfc0"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "#d4cec3"
+          },
+          "bright_black": {
+            "$type": "color",
+            "$value": "#637079"
+          },
+          "bright_red": {
+            "$type": "color",
+            "$value": "#dc6c43"
+          },
+          "bright_green": {
+            "$type": "color",
+            "$value": "#69caa5"
+          },
+          "bright_yellow": {
+            "$type": "color",
+            "$value": "#e5d264"
+          },
+          "bright_blue": {
+            "$type": "color",
+            "$value": "#77c5e8"
+          },
+          "bright_magenta": {
+            "$type": "color",
+            "$value": "#dfa2c1"
+          },
+          "bright_cyan": {
+            "$type": "color",
+            "$value": "#83d5d4"
+          },
+          "bright_white": {
+            "$type": "color",
+            "$value": "#fbf7ef"
+          }
+        }
+      }
+    },
+    "light": {
+      "neutral": {
+        "bg0": {
+          "$type": "color",
+          "$value": "#fffdf8"
+        },
+        "bg1": {
+          "$type": "color",
+          "$value": "#f7f3eb"
+        },
+        "bg2": {
+          "$type": "color",
+          "$value": "#eee8dc"
+        },
+        "bg3": {
+          "$type": "color",
+          "$value": "#e2dace"
+        },
+        "bg4": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "bg5": {
+          "$type": "color",
+          "$value": "#b8afa3"
+        },
+        "bg6": {
+          "$type": "color",
+          "$value": "#91897e"
+        },
+        "fg0": {
+          "$type": "color",
+          "$value": "#171a1c"
+        },
+        "fg1": {
+          "$type": "color",
+          "$value": "#272c30"
+        },
+        "fg2": {
+          "$type": "color",
+          "$value": "#3b4246"
+        },
+        "fg3": {
+          "$type": "color",
+          "$value": "#525a5e"
+        },
+        "fg4": {
+          "$type": "color",
+          "$value": "#687075"
+        },
+        "fg5": {
+          "$type": "color",
+          "$value": "#828a8e"
+        },
+        "fg6": {
+          "$type": "color",
+          "$value": "#a0a6a8"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "#687075"
+        },
+        "muted2": {
+          "$type": "color",
+          "$value": "#596166"
+        },
+        "muted3": {
+          "$type": "color",
+          "$value": "#91897e"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        }
+      },
+      "accent": {
+        "orange": {
+          "$type": "color",
+          "$value": "#955700"
+        },
+        "sky": {
+          "$type": "color",
+          "$value": "#1f759a"
+        },
+        "green": {
+          "$type": "color",
+          "$value": "#007a5a"
+        },
+        "yellow": {
+          "$type": "color",
+          "$value": "#806d00"
+        },
+        "blue": {
+          "$type": "color",
+          "$value": "#00699c"
+        },
+        "vermillion": {
+          "$type": "color",
+          "$value": "#b24600"
+        },
+        "rose": {
+          "$type": "color",
+          "$value": "#9b507d"
+        },
+        "red": {
+          "$type": "color",
+          "$value": "#a74b42"
+        },
+        "amber": {
+          "$type": "color",
+          "$value": "#7e6600"
+        },
+        "cyan": {
+          "$type": "color",
+          "$value": "#087b7c"
+        }
+      },
+      "semantic": {
+        "background_lower": {
+          "$type": "color",
+          "$value": "#fffdf8"
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#f7f3eb"
+        },
+        "surface": {
+          "$type": "color",
+          "$value": "#eee8dc"
+        },
+        "surface_raised": {
+          "$type": "color",
+          "$value": "#e2dace"
+        },
+        "surface_highest": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "divider": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "text_strong": {
+          "$type": "color",
+          "$value": "#171a1c"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "#272c30"
+        },
+        "text_subtle": {
+          "$type": "color",
+          "$value": "#525a5e"
+        },
+        "text_muted": {
+          "$type": "color",
+          "$value": "#687075"
+        },
+        "text_disabled": {
+          "$type": "color",
+          "$value": "#828a8e"
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "#00699c"
+        },
+        "primary_hover": {
+          "$type": "color",
+          "$value": "#1f759a"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "#9b507d"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "#007a5a"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "#7e6600"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "#a74b42"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "#1f759a"
+        },
+        "selection": {
+          "$type": "color",
+          "$value": "#e2dace"
+        },
+        "selection_strong": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "highlight": {
+          "$type": "color",
+          "$value": "#eee8dc"
+        },
+        "focus_ring": {
+          "$type": "color",
+          "$value": "#00699c"
+        },
+        "cursor": {
+          "$type": "color",
+          "$value": "#00699c"
+        },
+        "cursor_text": {
+          "$type": "color",
+          "$value": "#fffdf8"
+        }
+      },
+      "terminal": {
+        "background": {
+          "$type": "color",
+          "$value": "#f7f3eb"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "#272c30"
+        },
+        "cursor": {
+          "$type": "color",
+          "$value": "#00699c"
+        },
+        "cursor_text": {
+          "$type": "color",
+          "$value": "#fffdf8"
+        },
+        "selection_background": {
+          "$type": "color",
+          "$value": "#d3cabe"
+        },
+        "selection_foreground": {
+          "$type": "color",
+          "$value": "#171a1c"
+        },
+        "ansi": {
+          "black": {
+            "$type": "color",
+            "$value": "#272c30"
+          },
+          "red": {
+            "$type": "color",
+            "$value": "#a74b42"
+          },
+          "green": {
+            "$type": "color",
+            "$value": "#007a5a"
+          },
+          "yellow": {
+            "$type": "color",
+            "$value": "#7e6600"
+          },
+          "blue": {
+            "$type": "color",
+            "$value": "#00699c"
+          },
+          "magenta": {
+            "$type": "color",
+            "$value": "#9b507d"
+          },
+          "cyan": {
+            "$type": "color",
+            "$value": "#087b7c"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "#eee8dc"
+          },
+          "bright_black": {
+            "$type": "color",
+            "$value": "#687075"
+          },
+          "bright_red": {
+            "$type": "color",
+            "$value": "#b24600"
+          },
+          "bright_green": {
+            "$type": "color",
+            "$value": "#15906f"
+          },
+          "bright_yellow": {
+            "$type": "color",
+            "$value": "#806d00"
+          },
+          "bright_blue": {
+            "$type": "color",
+            "$value": "#1f759a"
+          },
+          "bright_magenta": {
+            "$type": "color",
+            "$value": "#b46591"
+          },
+          "bright_cyan": {
+            "$type": "color",
+            "$value": "#279697"
+          },
+          "bright_white": {
+            "$type": "color",
+            "$value": "#fffdf8"
+          }
+        }
+      }
+    }
+  }
+}

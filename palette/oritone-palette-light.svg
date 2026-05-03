@@ -1,0 +1,851 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1180 1958">
+<title id="title">Oritone palette preview (light)</title>
+<desc id="desc">Vector preview of Oritone dark and light neutral, accent, semantic, and terminal ANSI color tokens.</desc>
+<style>
+  .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 42px; font-weight: 750; letter-spacing: 0; fill: #272c30; }
+  .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; fill: #525a5e; }
+  .section { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; font-weight: 700; fill: #3b4246; }
+  .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; fill: #525a5e; }
+  .hex { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 700; }
+</style>
+<rect width="1180" height="1958" fill="#f7f3eb"/>
+<text class="title" x="32" y="58">Oritone Palette</text>
+<text class="subtitle" x="32" y="90">Light and dark colors for editors, terminals, and application interfaces. Version 0.1.0. License MIT.</text>
+<line x1="32" y1="108" x2="1148" y2="108" stroke="#d3cabe"/>
+<text class="section" x="32" y="142">Dark / Neutral</text>
+<g>
+<rect x="32" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,154 H152 Q160,154 160,162 V198 H32 V162 Q32,154 40,154 Z" fill="#0f1114"/>
+<text class="hex" x="41" y="183" fill="#ffffff">#0f1114</text>
+<text class="name" x="41" y="215">bg0</text>
+</g>
+<g>
+<rect x="170" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,154 H290 Q298,154 298,162 V198 H170 V162 Q170,154 178,154 Z" fill="#15191c"/>
+<text class="hex" x="179" y="183" fill="#ffffff">#15191c</text>
+<text class="name" x="179" y="215">bg1</text>
+</g>
+<g>
+<rect x="308" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,154 H428 Q436,154 436,162 V198 H308 V162 Q308,154 316,154 Z" fill="#1d2327"/>
+<text class="hex" x="317" y="183" fill="#ffffff">#1d2327</text>
+<text class="name" x="317" y="215">bg2</text>
+</g>
+<g>
+<rect x="446" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,154 H566 Q574,154 574,162 V198 H446 V162 Q446,154 454,154 Z" fill="#283036"/>
+<text class="hex" x="455" y="183" fill="#ffffff">#283036</text>
+<text class="name" x="455" y="215">bg3</text>
+</g>
+<g>
+<rect x="32" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,240 H152 Q160,240 160,248 V284 H32 V248 Q32,240 40,240 Z" fill="#354048"/>
+<text class="hex" x="41" y="269" fill="#ffffff">#354048</text>
+<text class="name" x="41" y="301">bg4</text>
+</g>
+<g>
+<rect x="170" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,240 H290 Q298,240 298,248 V284 H170 V248 Q170,240 178,240 Z" fill="#48545c"/>
+<text class="hex" x="179" y="269" fill="#ffffff">#48545c</text>
+<text class="name" x="179" y="301">bg5</text>
+</g>
+<g>
+<rect x="308" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,240 H428 Q436,240 436,248 V284 H308 V248 Q308,240 316,240 Z" fill="#637079"/>
+<text class="hex" x="317" y="269" fill="#ffffff">#637079</text>
+<text class="name" x="317" y="301">bg6</text>
+</g>
+<g>
+<rect x="446" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,240 H566 Q574,240 574,248 V284 H446 V248 Q446,240 454,240 Z" fill="#fbf7ef"/>
+<text class="hex" x="455" y="269" fill="#111111">#fbf7ef</text>
+<text class="name" x="455" y="301">fg0</text>
+</g>
+<g>
+<rect x="32" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,326 H152 Q160,326 160,334 V370 H32 V334 Q32,326 40,326 Z" fill="#e7e2d8"/>
+<text class="hex" x="41" y="355" fill="#111111">#e7e2d8</text>
+<text class="name" x="41" y="387">fg1</text>
+</g>
+<g>
+<rect x="170" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,326 H290 Q298,326 298,334 V370 H170 V334 Q170,326 178,326 Z" fill="#d4cec3"/>
+<text class="hex" x="179" y="355" fill="#111111">#d4cec3</text>
+<text class="name" x="179" y="387">fg2</text>
+</g>
+<g>
+<rect x="308" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,326 H428 Q436,326 436,334 V370 H308 V334 Q308,326 316,326 Z" fill="#b9b4ac"/>
+<text class="hex" x="317" y="355" fill="#111111">#b9b4ac</text>
+<text class="name" x="317" y="387">fg3</text>
+</g>
+<g>
+<rect x="446" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,326 H566 Q574,326 574,334 V370 H446 V334 Q446,326 454,326 Z" fill="#989d9c"/>
+<text class="hex" x="455" y="355" fill="#111111">#989d9c</text>
+<text class="name" x="455" y="387">fg4</text>
+</g>
+<g>
+<rect x="32" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,412 H152 Q160,412 160,420 V456 H32 V420 Q32,412 40,412 Z" fill="#737b7d"/>
+<text class="hex" x="41" y="441" fill="#111111">#737b7d</text>
+<text class="name" x="41" y="473">fg5</text>
+</g>
+<g>
+<rect x="170" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,412 H290 Q298,412 298,420 V456 H170 V420 Q170,412 178,412 Z" fill="#5b6368"/>
+<text class="hex" x="179" y="441" fill="#ffffff">#5b6368</text>
+<text class="name" x="179" y="473">fg6</text>
+</g>
+<g>
+<rect x="308" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,412 H428 Q436,412 436,420 V456 H308 V420 Q308,412 316,412 Z" fill="#989d9c"/>
+<text class="hex" x="317" y="441" fill="#111111">#989d9c</text>
+<text class="name" x="317" y="473">muted</text>
+</g>
+<g>
+<rect x="446" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,412 H566 Q574,412 574,420 V456 H446 V420 Q446,412 454,412 Z" fill="#737b7d"/>
+<text class="hex" x="455" y="441" fill="#111111">#737b7d</text>
+<text class="name" x="455" y="473">muted2</text>
+</g>
+<g>
+<rect x="32" y="498" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,498 H152 Q160,498 160,506 V542 H32 V506 Q32,498 40,498 Z" fill="#637079"/>
+<text class="hex" x="41" y="527" fill="#ffffff">#637079</text>
+<text class="name" x="41" y="559">muted3</text>
+</g>
+<g>
+<rect x="170" y="498" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,498 H290 Q298,498 298,506 V542 H170 V506 Q170,498 178,498 Z" fill="#354048"/>
+<text class="hex" x="179" y="527" fill="#ffffff">#354048</text>
+<text class="name" x="179" y="559">border</text>
+</g>
+<text class="section" x="32" y="620">Dark / Accent</text>
+<g>
+<rect x="32" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,632 H152 Q160,632 160,640 V676 H32 V640 Q32,632 40,632 Z" fill="#d89a43"/>
+<text class="hex" x="41" y="661" fill="#111111">#d89a43</text>
+<text class="name" x="41" y="693">orange</text>
+</g>
+<g>
+<rect x="170" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,632 H290 Q298,632 298,640 V676 H170 V640 Q170,632 178,632 Z" fill="#77c5e8"/>
+<text class="hex" x="179" y="661" fill="#111111">#77c5e8</text>
+<text class="name" x="179" y="693">sky</text>
+</g>
+<g>
+<rect x="308" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,632 H428 Q436,632 436,640 V676 H308 V640 Q308,632 316,632 Z" fill="#43b08a"/>
+<text class="hex" x="317" y="661" fill="#111111">#43b08a</text>
+<text class="name" x="317" y="693">green</text>
+</g>
+<g>
+<rect x="446" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,632 H566 Q574,632 574,640 V676 H446 V640 Q446,632 454,632 Z" fill="#e5d264"/>
+<text class="hex" x="455" y="661" fill="#111111">#e5d264</text>
+<text class="name" x="455" y="693">yellow</text>
+</g>
+<g>
+<rect x="32" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,718 H152 Q160,718 160,726 V762 H32 V726 Q32,718 40,718 Z" fill="#56a6cf"/>
+<text class="hex" x="41" y="747" fill="#111111">#56a6cf</text>
+<text class="name" x="41" y="779">blue</text>
+</g>
+<g>
+<rect x="170" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,718 H290 Q298,718 298,726 V762 H170 V726 Q170,718 178,718 Z" fill="#dc6c43"/>
+<text class="hex" x="179" y="747" fill="#111111">#dc6c43</text>
+<text class="name" x="179" y="779">vermillion</text>
+</g>
+<g>
+<rect x="308" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,718 H428 Q436,718 436,726 V762 H308 V726 Q308,718 316,718 Z" fill="#ca86aa"/>
+<text class="hex" x="317" y="747" fill="#111111">#ca86aa</text>
+<text class="name" x="317" y="779">rose</text>
+</g>
+<g>
+<rect x="446" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,718 H566 Q574,718 574,726 V762 H446 V726 Q446,718 454,718 Z" fill="#e06a5f"/>
+<text class="hex" x="455" y="747" fill="#111111">#e06a5f</text>
+<text class="name" x="455" y="779">red</text>
+</g>
+<g>
+<rect x="32" y="804" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,804 H152 Q160,804 160,812 V848 H32 V812 Q32,804 40,804 Z" fill="#dcc566"/>
+<text class="hex" x="41" y="833" fill="#111111">#dcc566</text>
+<text class="name" x="41" y="865">amber</text>
+</g>
+<g>
+<rect x="170" y="804" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,804 H290 Q298,804 298,812 V848 H170 V812 Q170,804 178,804 Z" fill="#5fbfc0"/>
+<text class="hex" x="179" y="833" fill="#111111">#5fbfc0</text>
+<text class="name" x="179" y="865">cyan</text>
+</g>
+<text class="section" x="32" y="926">Dark / Semantic</text>
+<g>
+<rect x="32" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,938 H152 Q160,938 160,946 V982 H32 V946 Q32,938 40,938 Z" fill="#0f1114"/>
+<text class="hex" x="41" y="967" fill="#ffffff">#0f1114</text>
+<text class="name" x="41" y="999">background lower</text>
+</g>
+<g>
+<rect x="170" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,938 H290 Q298,938 298,946 V982 H170 V946 Q170,938 178,938 Z" fill="#15191c"/>
+<text class="hex" x="179" y="967" fill="#ffffff">#15191c</text>
+<text class="name" x="179" y="999">background</text>
+</g>
+<g>
+<rect x="308" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,938 H428 Q436,938 436,946 V982 H308 V946 Q308,938 316,938 Z" fill="#1d2327"/>
+<text class="hex" x="317" y="967" fill="#ffffff">#1d2327</text>
+<text class="name" x="317" y="999">surface</text>
+</g>
+<g>
+<rect x="446" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,938 H566 Q574,938 574,946 V982 H446 V946 Q446,938 454,938 Z" fill="#283036"/>
+<text class="hex" x="455" y="967" fill="#ffffff">#283036</text>
+<text class="name" x="455" y="999">surface raised</text>
+</g>
+<g>
+<rect x="32" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1024 H152 Q160,1024 160,1032 V1068 H32 V1032 Q32,1024 40,1024 Z" fill="#354048"/>
+<text class="hex" x="41" y="1053" fill="#ffffff">#354048</text>
+<text class="name" x="41" y="1085">surface highest</text>
+</g>
+<g>
+<rect x="170" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1024 H290 Q298,1024 298,1032 V1068 H170 V1032 Q170,1024 178,1024 Z" fill="#354048"/>
+<text class="hex" x="179" y="1053" fill="#ffffff">#354048</text>
+<text class="name" x="179" y="1085">border</text>
+</g>
+<g>
+<rect x="308" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1024 H428 Q436,1024 436,1032 V1068 H308 V1032 Q308,1024 316,1024 Z" fill="#354048"/>
+<text class="hex" x="317" y="1053" fill="#ffffff">#354048</text>
+<text class="name" x="317" y="1085">divider</text>
+</g>
+<g>
+<rect x="446" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1024 H566 Q574,1024 574,1032 V1068 H446 V1032 Q446,1024 454,1024 Z" fill="#fbf7ef"/>
+<text class="hex" x="455" y="1053" fill="#111111">#fbf7ef</text>
+<text class="name" x="455" y="1085">text strong</text>
+</g>
+<g>
+<rect x="32" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1110 H152 Q160,1110 160,1118 V1154 H32 V1118 Q32,1110 40,1110 Z" fill="#e7e2d8"/>
+<text class="hex" x="41" y="1139" fill="#111111">#e7e2d8</text>
+<text class="name" x="41" y="1171">text</text>
+</g>
+<g>
+<rect x="170" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1110 H290 Q298,1110 298,1118 V1154 H170 V1118 Q170,1110 178,1110 Z" fill="#b9b4ac"/>
+<text class="hex" x="179" y="1139" fill="#111111">#b9b4ac</text>
+<text class="name" x="179" y="1171">text subtle</text>
+</g>
+<g>
+<rect x="308" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1110 H428 Q436,1110 436,1118 V1154 H308 V1118 Q308,1110 316,1110 Z" fill="#989d9c"/>
+<text class="hex" x="317" y="1139" fill="#111111">#989d9c</text>
+<text class="name" x="317" y="1171">text muted</text>
+</g>
+<g>
+<rect x="446" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1110 H566 Q574,1110 574,1118 V1154 H446 V1118 Q446,1110 454,1110 Z" fill="#737b7d"/>
+<text class="hex" x="455" y="1139" fill="#111111">#737b7d</text>
+<text class="name" x="455" y="1171">text disabled</text>
+</g>
+<g>
+<rect x="32" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1196 H152 Q160,1196 160,1204 V1240 H32 V1204 Q32,1196 40,1196 Z" fill="#56a6cf"/>
+<text class="hex" x="41" y="1225" fill="#111111">#56a6cf</text>
+<text class="name" x="41" y="1257">primary</text>
+</g>
+<g>
+<rect x="170" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1196 H290 Q298,1196 298,1204 V1240 H170 V1204 Q170,1196 178,1196 Z" fill="#77c5e8"/>
+<text class="hex" x="179" y="1225" fill="#111111">#77c5e8</text>
+<text class="name" x="179" y="1257">primary hover</text>
+</g>
+<g>
+<rect x="308" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1196 H428 Q436,1196 436,1204 V1240 H308 V1204 Q308,1196 316,1196 Z" fill="#ca86aa"/>
+<text class="hex" x="317" y="1225" fill="#111111">#ca86aa</text>
+<text class="name" x="317" y="1257">secondary</text>
+</g>
+<g>
+<rect x="446" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1196 H566 Q574,1196 574,1204 V1240 H446 V1204 Q446,1196 454,1196 Z" fill="#43b08a"/>
+<text class="hex" x="455" y="1225" fill="#111111">#43b08a</text>
+<text class="name" x="455" y="1257">success</text>
+</g>
+<g>
+<rect x="32" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1282 H152 Q160,1282 160,1290 V1326 H32 V1290 Q32,1282 40,1282 Z" fill="#dcc566"/>
+<text class="hex" x="41" y="1311" fill="#111111">#dcc566</text>
+<text class="name" x="41" y="1343">warning</text>
+</g>
+<g>
+<rect x="170" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1282 H290 Q298,1282 298,1290 V1326 H170 V1290 Q170,1282 178,1282 Z" fill="#e06a5f"/>
+<text class="hex" x="179" y="1311" fill="#111111">#e06a5f</text>
+<text class="name" x="179" y="1343">danger</text>
+</g>
+<g>
+<rect x="308" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1282 H428 Q436,1282 436,1290 V1326 H308 V1290 Q308,1282 316,1282 Z" fill="#77c5e8"/>
+<text class="hex" x="317" y="1311" fill="#111111">#77c5e8</text>
+<text class="name" x="317" y="1343">info</text>
+</g>
+<g>
+<rect x="446" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1282 H566 Q574,1282 574,1290 V1326 H446 V1290 Q446,1282 454,1282 Z" fill="#283036"/>
+<text class="hex" x="455" y="1311" fill="#ffffff">#283036</text>
+<text class="name" x="455" y="1343">selection</text>
+</g>
+<g>
+<rect x="32" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1368 H152 Q160,1368 160,1376 V1412 H32 V1376 Q32,1368 40,1368 Z" fill="#354048"/>
+<text class="hex" x="41" y="1397" fill="#ffffff">#354048</text>
+<text class="name" x="41" y="1429">selection strong</text>
+</g>
+<g>
+<rect x="170" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1368 H290 Q298,1368 298,1376 V1412 H170 V1376 Q170,1368 178,1368 Z" fill="#22292b"/>
+<text class="hex" x="179" y="1397" fill="#ffffff">#22292b</text>
+<text class="name" x="179" y="1429">highlight</text>
+</g>
+<g>
+<rect x="308" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1368 H428 Q436,1368 436,1376 V1412 H308 V1376 Q308,1368 316,1368 Z" fill="#dcc566"/>
+<text class="hex" x="317" y="1397" fill="#111111">#dcc566</text>
+<text class="name" x="317" y="1429">focus ring</text>
+</g>
+<g>
+<rect x="446" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1368 H566 Q574,1368 574,1376 V1412 H446 V1376 Q446,1368 454,1368 Z" fill="#dcc566"/>
+<text class="hex" x="455" y="1397" fill="#111111">#dcc566</text>
+<text class="name" x="455" y="1429">cursor</text>
+</g>
+<g>
+<rect x="32" y="1454" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1454 H152 Q160,1454 160,1462 V1498 H32 V1462 Q32,1454 40,1454 Z" fill="#15191c"/>
+<text class="hex" x="41" y="1483" fill="#ffffff">#15191c</text>
+<text class="name" x="41" y="1515">cursor text</text>
+</g>
+<text class="section" x="32" y="1576">Dark / Terminal ANSI</text>
+<g>
+<rect x="32" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1588 H152 Q160,1588 160,1596 V1632 H32 V1596 Q32,1588 40,1588 Z" fill="#0f1114"/>
+<text class="hex" x="41" y="1617" fill="#ffffff">#0f1114</text>
+<text class="name" x="41" y="1649">black</text>
+</g>
+<g>
+<rect x="170" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1588 H290 Q298,1588 298,1596 V1632 H170 V1596 Q170,1588 178,1588 Z" fill="#e06a5f"/>
+<text class="hex" x="179" y="1617" fill="#111111">#e06a5f</text>
+<text class="name" x="179" y="1649">red</text>
+</g>
+<g>
+<rect x="308" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1588 H428 Q436,1588 436,1596 V1632 H308 V1596 Q308,1588 316,1588 Z" fill="#43b08a"/>
+<text class="hex" x="317" y="1617" fill="#111111">#43b08a</text>
+<text class="name" x="317" y="1649">green</text>
+</g>
+<g>
+<rect x="446" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1588 H566 Q574,1588 574,1596 V1632 H446 V1596 Q446,1588 454,1588 Z" fill="#dcc566"/>
+<text class="hex" x="455" y="1617" fill="#111111">#dcc566</text>
+<text class="name" x="455" y="1649">yellow</text>
+</g>
+<g>
+<rect x="32" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1674 H152 Q160,1674 160,1682 V1718 H32 V1682 Q32,1674 40,1674 Z" fill="#56a6cf"/>
+<text class="hex" x="41" y="1703" fill="#111111">#56a6cf</text>
+<text class="name" x="41" y="1735">blue</text>
+</g>
+<g>
+<rect x="170" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1674 H290 Q298,1674 298,1682 V1718 H170 V1682 Q170,1674 178,1674 Z" fill="#ca86aa"/>
+<text class="hex" x="179" y="1703" fill="#111111">#ca86aa</text>
+<text class="name" x="179" y="1735">magenta</text>
+</g>
+<g>
+<rect x="308" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1674 H428 Q436,1674 436,1682 V1718 H308 V1682 Q308,1674 316,1674 Z" fill="#5fbfc0"/>
+<text class="hex" x="317" y="1703" fill="#111111">#5fbfc0</text>
+<text class="name" x="317" y="1735">cyan</text>
+</g>
+<g>
+<rect x="446" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1674 H566 Q574,1674 574,1682 V1718 H446 V1682 Q446,1674 454,1674 Z" fill="#d4cec3"/>
+<text class="hex" x="455" y="1703" fill="#111111">#d4cec3</text>
+<text class="name" x="455" y="1735">white</text>
+</g>
+<g>
+<rect x="32" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1760 H152 Q160,1760 160,1768 V1804 H32 V1768 Q32,1760 40,1760 Z" fill="#637079"/>
+<text class="hex" x="41" y="1789" fill="#ffffff">#637079</text>
+<text class="name" x="41" y="1821">bright black</text>
+</g>
+<g>
+<rect x="170" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1760 H290 Q298,1760 298,1768 V1804 H170 V1768 Q170,1760 178,1760 Z" fill="#dc6c43"/>
+<text class="hex" x="179" y="1789" fill="#111111">#dc6c43</text>
+<text class="name" x="179" y="1821">bright red</text>
+</g>
+<g>
+<rect x="308" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1760 H428 Q436,1760 436,1768 V1804 H308 V1768 Q308,1760 316,1760 Z" fill="#69caa5"/>
+<text class="hex" x="317" y="1789" fill="#111111">#69caa5</text>
+<text class="name" x="317" y="1821">bright green</text>
+</g>
+<g>
+<rect x="446" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1760 H566 Q574,1760 574,1768 V1804 H446 V1768 Q446,1760 454,1760 Z" fill="#e5d264"/>
+<text class="hex" x="455" y="1789" fill="#111111">#e5d264</text>
+<text class="name" x="455" y="1821">bright yellow</text>
+</g>
+<g>
+<rect x="32" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M40,1846 H152 Q160,1846 160,1854 V1890 H32 V1854 Q32,1846 40,1846 Z" fill="#77c5e8"/>
+<text class="hex" x="41" y="1875" fill="#111111">#77c5e8</text>
+<text class="name" x="41" y="1907">bright blue</text>
+</g>
+<g>
+<rect x="170" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M178,1846 H290 Q298,1846 298,1854 V1890 H170 V1854 Q170,1846 178,1846 Z" fill="#dfa2c1"/>
+<text class="hex" x="179" y="1875" fill="#111111">#dfa2c1</text>
+<text class="name" x="179" y="1907">bright magenta</text>
+</g>
+<g>
+<rect x="308" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M316,1846 H428 Q436,1846 436,1854 V1890 H308 V1854 Q308,1846 316,1846 Z" fill="#83d5d4"/>
+<text class="hex" x="317" y="1875" fill="#111111">#83d5d4</text>
+<text class="name" x="317" y="1907">bright cyan</text>
+</g>
+<g>
+<rect x="446" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M454,1846 H566 Q574,1846 574,1854 V1890 H446 V1854 Q446,1846 454,1846 Z" fill="#fbf7ef"/>
+<text class="hex" x="455" y="1875" fill="#111111">#fbf7ef</text>
+<text class="name" x="455" y="1907">bright white</text>
+</g>
+<text class="section" x="604" y="142">Light / Neutral</text>
+<g>
+<rect x="604" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,154 H724 Q732,154 732,162 V198 H604 V162 Q604,154 612,154 Z" fill="#fffdf8"/>
+<text class="hex" x="613" y="183" fill="#111111">#fffdf8</text>
+<text class="name" x="613" y="215">bg0</text>
+</g>
+<g>
+<rect x="742" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,154 H862 Q870,154 870,162 V198 H742 V162 Q742,154 750,154 Z" fill="#f7f3eb"/>
+<text class="hex" x="751" y="183" fill="#111111">#f7f3eb</text>
+<text class="name" x="751" y="215">bg1</text>
+</g>
+<g>
+<rect x="880" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,154 H1000 Q1008,154 1008,162 V198 H880 V162 Q880,154 888,154 Z" fill="#eee8dc"/>
+<text class="hex" x="889" y="183" fill="#111111">#eee8dc</text>
+<text class="name" x="889" y="215">bg2</text>
+</g>
+<g>
+<rect x="1018" y="154" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,154 H1138 Q1146,154 1146,162 V198 H1018 V162 Q1018,154 1026,154 Z" fill="#e2dace"/>
+<text class="hex" x="1027" y="183" fill="#111111">#e2dace</text>
+<text class="name" x="1027" y="215">bg3</text>
+</g>
+<g>
+<rect x="604" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,240 H724 Q732,240 732,248 V284 H604 V248 Q604,240 612,240 Z" fill="#d3cabe"/>
+<text class="hex" x="613" y="269" fill="#111111">#d3cabe</text>
+<text class="name" x="613" y="301">bg4</text>
+</g>
+<g>
+<rect x="742" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,240 H862 Q870,240 870,248 V284 H742 V248 Q742,240 750,240 Z" fill="#b8afa3"/>
+<text class="hex" x="751" y="269" fill="#111111">#b8afa3</text>
+<text class="name" x="751" y="301">bg5</text>
+</g>
+<g>
+<rect x="880" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,240 H1000 Q1008,240 1008,248 V284 H880 V248 Q880,240 888,240 Z" fill="#91897e"/>
+<text class="hex" x="889" y="269" fill="#111111">#91897e</text>
+<text class="name" x="889" y="301">bg6</text>
+</g>
+<g>
+<rect x="1018" y="240" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,240 H1138 Q1146,240 1146,248 V284 H1018 V248 Q1018,240 1026,240 Z" fill="#171a1c"/>
+<text class="hex" x="1027" y="269" fill="#ffffff">#171a1c</text>
+<text class="name" x="1027" y="301">fg0</text>
+</g>
+<g>
+<rect x="604" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,326 H724 Q732,326 732,334 V370 H604 V334 Q604,326 612,326 Z" fill="#272c30"/>
+<text class="hex" x="613" y="355" fill="#ffffff">#272c30</text>
+<text class="name" x="613" y="387">fg1</text>
+</g>
+<g>
+<rect x="742" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,326 H862 Q870,326 870,334 V370 H742 V334 Q742,326 750,326 Z" fill="#3b4246"/>
+<text class="hex" x="751" y="355" fill="#ffffff">#3b4246</text>
+<text class="name" x="751" y="387">fg2</text>
+</g>
+<g>
+<rect x="880" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,326 H1000 Q1008,326 1008,334 V370 H880 V334 Q880,326 888,326 Z" fill="#525a5e"/>
+<text class="hex" x="889" y="355" fill="#ffffff">#525a5e</text>
+<text class="name" x="889" y="387">fg3</text>
+</g>
+<g>
+<rect x="1018" y="326" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,326 H1138 Q1146,326 1146,334 V370 H1018 V334 Q1018,326 1026,326 Z" fill="#687075"/>
+<text class="hex" x="1027" y="355" fill="#ffffff">#687075</text>
+<text class="name" x="1027" y="387">fg4</text>
+</g>
+<g>
+<rect x="604" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,412 H724 Q732,412 732,420 V456 H604 V420 Q604,412 612,412 Z" fill="#828a8e"/>
+<text class="hex" x="613" y="441" fill="#111111">#828a8e</text>
+<text class="name" x="613" y="473">fg5</text>
+</g>
+<g>
+<rect x="742" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,412 H862 Q870,412 870,420 V456 H742 V420 Q742,412 750,412 Z" fill="#a0a6a8"/>
+<text class="hex" x="751" y="441" fill="#111111">#a0a6a8</text>
+<text class="name" x="751" y="473">fg6</text>
+</g>
+<g>
+<rect x="880" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,412 H1000 Q1008,412 1008,420 V456 H880 V420 Q880,412 888,412 Z" fill="#687075"/>
+<text class="hex" x="889" y="441" fill="#ffffff">#687075</text>
+<text class="name" x="889" y="473">muted</text>
+</g>
+<g>
+<rect x="1018" y="412" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,412 H1138 Q1146,412 1146,420 V456 H1018 V420 Q1018,412 1026,412 Z" fill="#596166"/>
+<text class="hex" x="1027" y="441" fill="#ffffff">#596166</text>
+<text class="name" x="1027" y="473">muted2</text>
+</g>
+<g>
+<rect x="604" y="498" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,498 H724 Q732,498 732,506 V542 H604 V506 Q604,498 612,498 Z" fill="#91897e"/>
+<text class="hex" x="613" y="527" fill="#111111">#91897e</text>
+<text class="name" x="613" y="559">muted3</text>
+</g>
+<g>
+<rect x="742" y="498" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,498 H862 Q870,498 870,506 V542 H742 V506 Q742,498 750,498 Z" fill="#d3cabe"/>
+<text class="hex" x="751" y="527" fill="#111111">#d3cabe</text>
+<text class="name" x="751" y="559">border</text>
+</g>
+<text class="section" x="604" y="620">Light / Accent</text>
+<g>
+<rect x="604" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,632 H724 Q732,632 732,640 V676 H604 V640 Q604,632 612,632 Z" fill="#955700"/>
+<text class="hex" x="613" y="661" fill="#ffffff">#955700</text>
+<text class="name" x="613" y="693">orange</text>
+</g>
+<g>
+<rect x="742" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,632 H862 Q870,632 870,640 V676 H742 V640 Q742,632 750,632 Z" fill="#1f759a"/>
+<text class="hex" x="751" y="661" fill="#ffffff">#1f759a</text>
+<text class="name" x="751" y="693">sky</text>
+</g>
+<g>
+<rect x="880" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,632 H1000 Q1008,632 1008,640 V676 H880 V640 Q880,632 888,632 Z" fill="#007a5a"/>
+<text class="hex" x="889" y="661" fill="#ffffff">#007a5a</text>
+<text class="name" x="889" y="693">green</text>
+</g>
+<g>
+<rect x="1018" y="632" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,632 H1138 Q1146,632 1146,640 V676 H1018 V640 Q1018,632 1026,632 Z" fill="#806d00"/>
+<text class="hex" x="1027" y="661" fill="#ffffff">#806d00</text>
+<text class="name" x="1027" y="693">yellow</text>
+</g>
+<g>
+<rect x="604" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,718 H724 Q732,718 732,726 V762 H604 V726 Q604,718 612,718 Z" fill="#00699c"/>
+<text class="hex" x="613" y="747" fill="#ffffff">#00699c</text>
+<text class="name" x="613" y="779">blue</text>
+</g>
+<g>
+<rect x="742" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,718 H862 Q870,718 870,726 V762 H742 V726 Q742,718 750,718 Z" fill="#b24600"/>
+<text class="hex" x="751" y="747" fill="#ffffff">#b24600</text>
+<text class="name" x="751" y="779">vermillion</text>
+</g>
+<g>
+<rect x="880" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,718 H1000 Q1008,718 1008,726 V762 H880 V726 Q880,718 888,718 Z" fill="#9b507d"/>
+<text class="hex" x="889" y="747" fill="#ffffff">#9b507d</text>
+<text class="name" x="889" y="779">rose</text>
+</g>
+<g>
+<rect x="1018" y="718" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,718 H1138 Q1146,718 1146,726 V762 H1018 V726 Q1018,718 1026,718 Z" fill="#a74b42"/>
+<text class="hex" x="1027" y="747" fill="#ffffff">#a74b42</text>
+<text class="name" x="1027" y="779">red</text>
+</g>
+<g>
+<rect x="604" y="804" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,804 H724 Q732,804 732,812 V848 H604 V812 Q604,804 612,804 Z" fill="#7e6600"/>
+<text class="hex" x="613" y="833" fill="#ffffff">#7e6600</text>
+<text class="name" x="613" y="865">amber</text>
+</g>
+<g>
+<rect x="742" y="804" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,804 H862 Q870,804 870,812 V848 H742 V812 Q742,804 750,804 Z" fill="#087b7c"/>
+<text class="hex" x="751" y="833" fill="#ffffff">#087b7c</text>
+<text class="name" x="751" y="865">cyan</text>
+</g>
+<text class="section" x="604" y="926">Light / Semantic</text>
+<g>
+<rect x="604" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,938 H724 Q732,938 732,946 V982 H604 V946 Q604,938 612,938 Z" fill="#fffdf8"/>
+<text class="hex" x="613" y="967" fill="#111111">#fffdf8</text>
+<text class="name" x="613" y="999">background lower</text>
+</g>
+<g>
+<rect x="742" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,938 H862 Q870,938 870,946 V982 H742 V946 Q742,938 750,938 Z" fill="#f7f3eb"/>
+<text class="hex" x="751" y="967" fill="#111111">#f7f3eb</text>
+<text class="name" x="751" y="999">background</text>
+</g>
+<g>
+<rect x="880" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,938 H1000 Q1008,938 1008,946 V982 H880 V946 Q880,938 888,938 Z" fill="#eee8dc"/>
+<text class="hex" x="889" y="967" fill="#111111">#eee8dc</text>
+<text class="name" x="889" y="999">surface</text>
+</g>
+<g>
+<rect x="1018" y="938" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,938 H1138 Q1146,938 1146,946 V982 H1018 V946 Q1018,938 1026,938 Z" fill="#e2dace"/>
+<text class="hex" x="1027" y="967" fill="#111111">#e2dace</text>
+<text class="name" x="1027" y="999">surface raised</text>
+</g>
+<g>
+<rect x="604" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1024 H724 Q732,1024 732,1032 V1068 H604 V1032 Q604,1024 612,1024 Z" fill="#d3cabe"/>
+<text class="hex" x="613" y="1053" fill="#111111">#d3cabe</text>
+<text class="name" x="613" y="1085">surface highest</text>
+</g>
+<g>
+<rect x="742" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1024 H862 Q870,1024 870,1032 V1068 H742 V1032 Q742,1024 750,1024 Z" fill="#d3cabe"/>
+<text class="hex" x="751" y="1053" fill="#111111">#d3cabe</text>
+<text class="name" x="751" y="1085">border</text>
+</g>
+<g>
+<rect x="880" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1024 H1000 Q1008,1024 1008,1032 V1068 H880 V1032 Q880,1024 888,1024 Z" fill="#d3cabe"/>
+<text class="hex" x="889" y="1053" fill="#111111">#d3cabe</text>
+<text class="name" x="889" y="1085">divider</text>
+</g>
+<g>
+<rect x="1018" y="1024" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1024 H1138 Q1146,1024 1146,1032 V1068 H1018 V1032 Q1018,1024 1026,1024 Z" fill="#171a1c"/>
+<text class="hex" x="1027" y="1053" fill="#ffffff">#171a1c</text>
+<text class="name" x="1027" y="1085">text strong</text>
+</g>
+<g>
+<rect x="604" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1110 H724 Q732,1110 732,1118 V1154 H604 V1118 Q604,1110 612,1110 Z" fill="#272c30"/>
+<text class="hex" x="613" y="1139" fill="#ffffff">#272c30</text>
+<text class="name" x="613" y="1171">text</text>
+</g>
+<g>
+<rect x="742" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1110 H862 Q870,1110 870,1118 V1154 H742 V1118 Q742,1110 750,1110 Z" fill="#525a5e"/>
+<text class="hex" x="751" y="1139" fill="#ffffff">#525a5e</text>
+<text class="name" x="751" y="1171">text subtle</text>
+</g>
+<g>
+<rect x="880" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1110 H1000 Q1008,1110 1008,1118 V1154 H880 V1118 Q880,1110 888,1110 Z" fill="#687075"/>
+<text class="hex" x="889" y="1139" fill="#ffffff">#687075</text>
+<text class="name" x="889" y="1171">text muted</text>
+</g>
+<g>
+<rect x="1018" y="1110" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1110 H1138 Q1146,1110 1146,1118 V1154 H1018 V1118 Q1018,1110 1026,1110 Z" fill="#828a8e"/>
+<text class="hex" x="1027" y="1139" fill="#111111">#828a8e</text>
+<text class="name" x="1027" y="1171">text disabled</text>
+</g>
+<g>
+<rect x="604" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1196 H724 Q732,1196 732,1204 V1240 H604 V1204 Q604,1196 612,1196 Z" fill="#00699c"/>
+<text class="hex" x="613" y="1225" fill="#ffffff">#00699c</text>
+<text class="name" x="613" y="1257">primary</text>
+</g>
+<g>
+<rect x="742" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1196 H862 Q870,1196 870,1204 V1240 H742 V1204 Q742,1196 750,1196 Z" fill="#1f759a"/>
+<text class="hex" x="751" y="1225" fill="#ffffff">#1f759a</text>
+<text class="name" x="751" y="1257">primary hover</text>
+</g>
+<g>
+<rect x="880" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1196 H1000 Q1008,1196 1008,1204 V1240 H880 V1204 Q880,1196 888,1196 Z" fill="#9b507d"/>
+<text class="hex" x="889" y="1225" fill="#ffffff">#9b507d</text>
+<text class="name" x="889" y="1257">secondary</text>
+</g>
+<g>
+<rect x="1018" y="1196" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1196 H1138 Q1146,1196 1146,1204 V1240 H1018 V1204 Q1018,1196 1026,1196 Z" fill="#007a5a"/>
+<text class="hex" x="1027" y="1225" fill="#ffffff">#007a5a</text>
+<text class="name" x="1027" y="1257">success</text>
+</g>
+<g>
+<rect x="604" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1282 H724 Q732,1282 732,1290 V1326 H604 V1290 Q604,1282 612,1282 Z" fill="#7e6600"/>
+<text class="hex" x="613" y="1311" fill="#ffffff">#7e6600</text>
+<text class="name" x="613" y="1343">warning</text>
+</g>
+<g>
+<rect x="742" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1282 H862 Q870,1282 870,1290 V1326 H742 V1290 Q742,1282 750,1282 Z" fill="#a74b42"/>
+<text class="hex" x="751" y="1311" fill="#ffffff">#a74b42</text>
+<text class="name" x="751" y="1343">danger</text>
+</g>
+<g>
+<rect x="880" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1282 H1000 Q1008,1282 1008,1290 V1326 H880 V1290 Q880,1282 888,1282 Z" fill="#1f759a"/>
+<text class="hex" x="889" y="1311" fill="#ffffff">#1f759a</text>
+<text class="name" x="889" y="1343">info</text>
+</g>
+<g>
+<rect x="1018" y="1282" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1282 H1138 Q1146,1282 1146,1290 V1326 H1018 V1290 Q1018,1282 1026,1282 Z" fill="#e2dace"/>
+<text class="hex" x="1027" y="1311" fill="#111111">#e2dace</text>
+<text class="name" x="1027" y="1343">selection</text>
+</g>
+<g>
+<rect x="604" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1368 H724 Q732,1368 732,1376 V1412 H604 V1376 Q604,1368 612,1368 Z" fill="#d3cabe"/>
+<text class="hex" x="613" y="1397" fill="#111111">#d3cabe</text>
+<text class="name" x="613" y="1429">selection strong</text>
+</g>
+<g>
+<rect x="742" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1368 H862 Q870,1368 870,1376 V1412 H742 V1376 Q742,1368 750,1368 Z" fill="#eee8dc"/>
+<text class="hex" x="751" y="1397" fill="#111111">#eee8dc</text>
+<text class="name" x="751" y="1429">highlight</text>
+</g>
+<g>
+<rect x="880" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1368 H1000 Q1008,1368 1008,1376 V1412 H880 V1376 Q880,1368 888,1368 Z" fill="#00699c"/>
+<text class="hex" x="889" y="1397" fill="#ffffff">#00699c</text>
+<text class="name" x="889" y="1429">focus ring</text>
+</g>
+<g>
+<rect x="1018" y="1368" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1368 H1138 Q1146,1368 1146,1376 V1412 H1018 V1376 Q1018,1368 1026,1368 Z" fill="#00699c"/>
+<text class="hex" x="1027" y="1397" fill="#ffffff">#00699c</text>
+<text class="name" x="1027" y="1429">cursor</text>
+</g>
+<g>
+<rect x="604" y="1454" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1454 H724 Q732,1454 732,1462 V1498 H604 V1462 Q604,1454 612,1454 Z" fill="#fffdf8"/>
+<text class="hex" x="613" y="1483" fill="#111111">#fffdf8</text>
+<text class="name" x="613" y="1515">cursor text</text>
+</g>
+<text class="section" x="604" y="1576">Light / Terminal ANSI</text>
+<g>
+<rect x="604" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1588 H724 Q732,1588 732,1596 V1632 H604 V1596 Q604,1588 612,1588 Z" fill="#272c30"/>
+<text class="hex" x="613" y="1617" fill="#ffffff">#272c30</text>
+<text class="name" x="613" y="1649">black</text>
+</g>
+<g>
+<rect x="742" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1588 H862 Q870,1588 870,1596 V1632 H742 V1596 Q742,1588 750,1588 Z" fill="#a74b42"/>
+<text class="hex" x="751" y="1617" fill="#ffffff">#a74b42</text>
+<text class="name" x="751" y="1649">red</text>
+</g>
+<g>
+<rect x="880" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1588 H1000 Q1008,1588 1008,1596 V1632 H880 V1596 Q880,1588 888,1588 Z" fill="#007a5a"/>
+<text class="hex" x="889" y="1617" fill="#ffffff">#007a5a</text>
+<text class="name" x="889" y="1649">green</text>
+</g>
+<g>
+<rect x="1018" y="1588" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1588 H1138 Q1146,1588 1146,1596 V1632 H1018 V1596 Q1018,1588 1026,1588 Z" fill="#7e6600"/>
+<text class="hex" x="1027" y="1617" fill="#ffffff">#7e6600</text>
+<text class="name" x="1027" y="1649">yellow</text>
+</g>
+<g>
+<rect x="604" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1674 H724 Q732,1674 732,1682 V1718 H604 V1682 Q604,1674 612,1674 Z" fill="#00699c"/>
+<text class="hex" x="613" y="1703" fill="#ffffff">#00699c</text>
+<text class="name" x="613" y="1735">blue</text>
+</g>
+<g>
+<rect x="742" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1674 H862 Q870,1674 870,1682 V1718 H742 V1682 Q742,1674 750,1674 Z" fill="#9b507d"/>
+<text class="hex" x="751" y="1703" fill="#ffffff">#9b507d</text>
+<text class="name" x="751" y="1735">magenta</text>
+</g>
+<g>
+<rect x="880" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1674 H1000 Q1008,1674 1008,1682 V1718 H880 V1682 Q880,1674 888,1674 Z" fill="#087b7c"/>
+<text class="hex" x="889" y="1703" fill="#ffffff">#087b7c</text>
+<text class="name" x="889" y="1735">cyan</text>
+</g>
+<g>
+<rect x="1018" y="1674" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1674 H1138 Q1146,1674 1146,1682 V1718 H1018 V1682 Q1018,1674 1026,1674 Z" fill="#eee8dc"/>
+<text class="hex" x="1027" y="1703" fill="#111111">#eee8dc</text>
+<text class="name" x="1027" y="1735">white</text>
+</g>
+<g>
+<rect x="604" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1760 H724 Q732,1760 732,1768 V1804 H604 V1768 Q604,1760 612,1760 Z" fill="#687075"/>
+<text class="hex" x="613" y="1789" fill="#ffffff">#687075</text>
+<text class="name" x="613" y="1821">bright black</text>
+</g>
+<g>
+<rect x="742" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1760 H862 Q870,1760 870,1768 V1804 H742 V1768 Q742,1760 750,1760 Z" fill="#b24600"/>
+<text class="hex" x="751" y="1789" fill="#ffffff">#b24600</text>
+<text class="name" x="751" y="1821">bright red</text>
+</g>
+<g>
+<rect x="880" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1760 H1000 Q1008,1760 1008,1768 V1804 H880 V1768 Q880,1760 888,1760 Z" fill="#15906f"/>
+<text class="hex" x="889" y="1789" fill="#111111">#15906f</text>
+<text class="name" x="889" y="1821">bright green</text>
+</g>
+<g>
+<rect x="1018" y="1760" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1760 H1138 Q1146,1760 1146,1768 V1804 H1018 V1768 Q1018,1760 1026,1760 Z" fill="#806d00"/>
+<text class="hex" x="1027" y="1789" fill="#ffffff">#806d00</text>
+<text class="name" x="1027" y="1821">bright yellow</text>
+</g>
+<g>
+<rect x="604" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M612,1846 H724 Q732,1846 732,1854 V1890 H604 V1854 Q604,1846 612,1846 Z" fill="#1f759a"/>
+<text class="hex" x="613" y="1875" fill="#ffffff">#1f759a</text>
+<text class="name" x="613" y="1907">bright blue</text>
+</g>
+<g>
+<rect x="742" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M750,1846 H862 Q870,1846 870,1854 V1890 H742 V1854 Q742,1846 750,1846 Z" fill="#b46591"/>
+<text class="hex" x="751" y="1875" fill="#111111">#b46591</text>
+<text class="name" x="751" y="1907">bright magenta</text>
+</g>
+<g>
+<rect x="880" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M888,1846 H1000 Q1008,1846 1008,1854 V1890 H880 V1854 Q880,1846 888,1846 Z" fill="#279697"/>
+<text class="hex" x="889" y="1875" fill="#111111">#279697</text>
+<text class="name" x="889" y="1907">bright cyan</text>
+</g>
+<g>
+<rect x="1018" y="1846" width="128" height="76" rx="8" fill="#fffdf8" stroke="#d3cabe"/>
+<path d="M1026,1846 H1138 Q1146,1846 1146,1854 V1890 H1018 V1854 Q1018,1846 1026,1846 Z" fill="#fffdf8"/>
+<text class="hex" x="1027" y="1875" fill="#111111">#fffdf8</text>
+<text class="name" x="1027" y="1907">bright white</text>
+</g>
+</svg>

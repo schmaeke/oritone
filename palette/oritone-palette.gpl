@@ -1,0 +1,147 @@
+GIMP Palette
+Name: Oritone
+Columns: 8
+# Oritone color palette
+# Version: 0.1.0
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Oritone contributors
+# Reference: Okabe & Ito color-blind-friendly palette.
+# https://siegal.bio.nyu.edu/color-palette/
+ 15  17  20	Oritone Dark Neutral bg0
+ 21  25  28	Oritone Dark Neutral bg1
+ 29  35  39	Oritone Dark Neutral bg2
+ 40  48  54	Oritone Dark Neutral bg3
+ 53  64  72	Oritone Dark Neutral bg4
+ 72  84  92	Oritone Dark Neutral bg5
+ 99 112 121	Oritone Dark Neutral bg6
+251 247 239	Oritone Dark Neutral fg0
+231 226 216	Oritone Dark Neutral fg1
+212 206 195	Oritone Dark Neutral fg2
+185 180 172	Oritone Dark Neutral fg3
+152 157 156	Oritone Dark Neutral fg4
+115 123 125	Oritone Dark Neutral fg5
+ 91  99 104	Oritone Dark Neutral fg6
+152 157 156	Oritone Dark Neutral muted
+115 123 125	Oritone Dark Neutral muted2
+ 99 112 121	Oritone Dark Neutral muted3
+ 53  64  72	Oritone Dark Neutral border
+216 154  67	Oritone Dark Accent orange
+119 197 232	Oritone Dark Accent sky
+ 67 176 138	Oritone Dark Accent green
+229 210 100	Oritone Dark Accent yellow
+ 86 166 207	Oritone Dark Accent blue
+220 108  67	Oritone Dark Accent vermillion
+202 134 170	Oritone Dark Accent rose
+224 106  95	Oritone Dark Accent red
+220 197 102	Oritone Dark Accent amber
+ 95 191 192	Oritone Dark Accent cyan
+ 15  17  20	Oritone Dark Semantic background_lower
+ 21  25  28	Oritone Dark Semantic background
+ 29  35  39	Oritone Dark Semantic surface
+ 40  48  54	Oritone Dark Semantic surface_raised
+ 53  64  72	Oritone Dark Semantic surface_highest
+ 53  64  72	Oritone Dark Semantic border
+ 53  64  72	Oritone Dark Semantic divider
+251 247 239	Oritone Dark Semantic text_strong
+231 226 216	Oritone Dark Semantic text
+185 180 172	Oritone Dark Semantic text_subtle
+152 157 156	Oritone Dark Semantic text_muted
+115 123 125	Oritone Dark Semantic text_disabled
+ 86 166 207	Oritone Dark Semantic primary
+119 197 232	Oritone Dark Semantic primary_hover
+202 134 170	Oritone Dark Semantic secondary
+ 67 176 138	Oritone Dark Semantic success
+220 197 102	Oritone Dark Semantic warning
+224 106  95	Oritone Dark Semantic danger
+119 197 232	Oritone Dark Semantic info
+ 40  48  54	Oritone Dark Semantic selection
+ 53  64  72	Oritone Dark Semantic selection_strong
+ 34  41  43	Oritone Dark Semantic highlight
+220 197 102	Oritone Dark Semantic focus_ring
+220 197 102	Oritone Dark Semantic cursor
+ 21  25  28	Oritone Dark Semantic cursor_text
+255 253 248	Oritone Light Neutral bg0
+247 243 235	Oritone Light Neutral bg1
+238 232 220	Oritone Light Neutral bg2
+226 218 206	Oritone Light Neutral bg3
+211 202 190	Oritone Light Neutral bg4
+184 175 163	Oritone Light Neutral bg5
+145 137 126	Oritone Light Neutral bg6
+ 23  26  28	Oritone Light Neutral fg0
+ 39  44  48	Oritone Light Neutral fg1
+ 59  66  70	Oritone Light Neutral fg2
+ 82  90  94	Oritone Light Neutral fg3
+104 112 117	Oritone Light Neutral fg4
+130 138 142	Oritone Light Neutral fg5
+160 166 168	Oritone Light Neutral fg6
+104 112 117	Oritone Light Neutral muted
+ 89  97 102	Oritone Light Neutral muted2
+145 137 126	Oritone Light Neutral muted3
+211 202 190	Oritone Light Neutral border
+149  87   0	Oritone Light Accent orange
+ 31 117 154	Oritone Light Accent sky
+  0 122  90	Oritone Light Accent green
+128 109   0	Oritone Light Accent yellow
+  0 105 156	Oritone Light Accent blue
+178  70   0	Oritone Light Accent vermillion
+155  80 125	Oritone Light Accent rose
+167  75  66	Oritone Light Accent red
+126 102   0	Oritone Light Accent amber
+  8 123 124	Oritone Light Accent cyan
+255 253 248	Oritone Light Semantic background_lower
+247 243 235	Oritone Light Semantic background
+238 232 220	Oritone Light Semantic surface
+226 218 206	Oritone Light Semantic surface_raised
+211 202 190	Oritone Light Semantic surface_highest
+211 202 190	Oritone Light Semantic border
+211 202 190	Oritone Light Semantic divider
+ 23  26  28	Oritone Light Semantic text_strong
+ 39  44  48	Oritone Light Semantic text
+ 82  90  94	Oritone Light Semantic text_subtle
+104 112 117	Oritone Light Semantic text_muted
+130 138 142	Oritone Light Semantic text_disabled
+  0 105 156	Oritone Light Semantic primary
+ 31 117 154	Oritone Light Semantic primary_hover
+155  80 125	Oritone Light Semantic secondary
+  0 122  90	Oritone Light Semantic success
+126 102   0	Oritone Light Semantic warning
+167  75  66	Oritone Light Semantic danger
+ 31 117 154	Oritone Light Semantic info
+226 218 206	Oritone Light Semantic selection
+211 202 190	Oritone Light Semantic selection_strong
+238 232 220	Oritone Light Semantic highlight
+  0 105 156	Oritone Light Semantic focus_ring
+  0 105 156	Oritone Light Semantic cursor
+255 253 248	Oritone Light Semantic cursor_text
+ 15  17  20	Oritone Dark ANSI black
+224 106  95	Oritone Dark ANSI red
+ 67 176 138	Oritone Dark ANSI green
+220 197 102	Oritone Dark ANSI yellow
+ 86 166 207	Oritone Dark ANSI blue
+202 134 170	Oritone Dark ANSI magenta
+ 95 191 192	Oritone Dark ANSI cyan
+212 206 195	Oritone Dark ANSI white
+ 99 112 121	Oritone Dark ANSI bright_black
+220 108  67	Oritone Dark ANSI bright_red
+105 202 165	Oritone Dark ANSI bright_green
+229 210 100	Oritone Dark ANSI bright_yellow
+119 197 232	Oritone Dark ANSI bright_blue
+223 162 193	Oritone Dark ANSI bright_magenta
+131 213 212	Oritone Dark ANSI bright_cyan
+251 247 239	Oritone Dark ANSI bright_white
+ 39  44  48	Oritone Light ANSI black
+167  75  66	Oritone Light ANSI red
+  0 122  90	Oritone Light ANSI green
+126 102   0	Oritone Light ANSI yellow
+  0 105 156	Oritone Light ANSI blue
+155  80 125	Oritone Light ANSI magenta
+  8 123 124	Oritone Light ANSI cyan
+238 232 220	Oritone Light ANSI white
+104 112 117	Oritone Light ANSI bright_black
+178  70   0	Oritone Light ANSI bright_red
+ 21 144 111	Oritone Light ANSI bright_green
+128 109   0	Oritone Light ANSI bright_yellow
+ 31 117 154	Oritone Light ANSI bright_blue
+180 101 145	Oritone Light ANSI bright_magenta
+ 39 150 151	Oritone Light ANSI bright_cyan
+255 253 248	Oritone Light ANSI bright_white

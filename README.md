@@ -1,17 +1,19 @@
 # Oritone
 
-Oritone is a mature light/dark color theme for editors, terminals, and
-application interfaces.
+Oritone is a mature light/dark color theme for editors, terminals, application
+interfaces, and scientific visualization.
 
 - Version: `0.1.0`
 - License: MIT
 - Reference: Okabe & Ito color-blind-friendly palette, used as a color
   direction source only: <https://siegal.bio.nyu.edu/color-palette/>
 
-The theme name, install names, palette exports, and generated preview files are
-all `oritone`.
+The theme name, install names, palette exports, and colormap exports are all
+`oritone`.
 
-## Color Preview
+## Visual Preview
+
+### Theme Palette
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="palette/oritone-palette-dark.svg">
@@ -22,35 +24,26 @@ all `oritone`.
 For the browser preview with responsive HTML/CSS cards, open
 [`palette/oritone-palette.html`](palette/oritone-palette.html).
 
-## Included Files
+### Scientific Colormaps
 
-```text
-codex/
-  oritone-dark.tmTheme
-  oritone-light.tmTheme
-helix/
-  oritone_dark.toml
-  oritone_light.toml
-  oritone_dark_transparent.toml
-  oritone_light_transparent.toml
-palette/
-  oritone-design-tokens.json
-  oritone-palette.ase
-  oritone-palette.css
-  oritone-palette.gpl
-  oritone-palette.html
-  oritone-palette.json
-  oritone-palette.scss
-  oritone-palette-dark.svg
-  oritone-palette-light.svg
-  oritone-palette.toml
-LICENSE
-README.md
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="colormaps/previews/oritone-colormaps-preview-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="colormaps/previews/oritone-colormaps-preview-light.svg">
+  <img alt="Oritone scientific colormap preview" src="colormaps/previews/oritone-colormaps-preview-light.svg">
+</picture>
 
-## Palette Structure
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="colormaps/previews/oritone-colormaps-lightness-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="colormaps/previews/oritone-colormaps-lightness-light.svg">
+  <img alt="Oritone colormap lightness profiles" src="colormaps/previews/oritone-colormaps-lightness-light.svg">
+</picture>
 
-The palette is split into dark and light variants. Each variant contains:
+For the browser colormap preview, open
+[`colormaps/oritone-colormaps.html`](colormaps/oritone-colormaps.html).
+
+## Theme Palette
+
+The theme palette is split into dark and light variants. Each variant contains:
 
 - `neutral`: base background, foreground, muted, and border ramps.
 - `accent`: named colors derived from the Okabe & Ito color direction and tuned
@@ -64,7 +57,62 @@ Use `palette/oritone-palette.json` or `palette/oritone-design-tokens.json` for
 machine-readable integration. Use the CSS or SCSS exports for application UI,
 and the GPL or ASE exports for design tools that support palette imports.
 
-## Helix
+## Scientific Colormaps
+
+Oritone includes six continuous scientific colormaps. Sequential maps are for
+positive-only or ordered scalar fields. Diverging maps are for data with a
+meaningful center such as zero, a baseline, or a signed residual.
+
+| Name | Type | Dominant colors | Best use |
+| --- | --- | ---: | --- |
+| Oritone Delta | Diverging | 2 | Signed anomalies, residuals, and centered scalar fields. |
+| Oritone Balance | Diverging | 2 | Signed pressure, displacement, uncertainty difference, or centered normalized quantities. |
+| Oritone Ember | Sequential | 1 | Scalar intensity, energy, heat, flux, or positive-only quantities. |
+| Oritone Marine | Sequential | 2 | Depth, density, concentration, velocity magnitude, or cool scalar fields. |
+| Oritone Canopy | Sequential | 3 | Ecology, terrain overlays, material fraction, and positive-valued simulation results. |
+| Oritone Fusion | Sequential | 4 | General-purpose scalar fields with broad dynamic range. |
+
+The ramps are generated in OKLab with controlled lightness profiles and
+gamut-safe chroma reduction, then exported as dense RGB point presets.
+Diverging maps use 257 samples so the center has an exact sample. Sequential
+maps use 256 samples. `NanColor` is set to a muted Oritone gray, and
+below/above-range colors are set to the ramp endpoints.
+
+### ParaView
+
+Use the combined preset file:
+
+```text
+colormaps/paraview/oritone-colormaps.json
+```
+
+In ParaView, open **View -> Color Map Editor**, click **Presets**, then
+**Import**, and select the JSON preset file. A legacy XML export is also
+available at:
+
+```text
+colormaps/paraview/oritone-colormaps.xml
+```
+
+Individual JSON and XML presets are provided under `colormaps/json/` and
+`colormaps/xml/`.
+
+### Matplotlib
+
+From the repository root, use the helper module to register all Oritone
+colormaps:
+
+```python
+from colormaps.oritone_colormaps import register_oritone_colormaps
+
+register_oritone_colormaps()
+
+# Then use names such as "oritone-fusion" or "oritone-delta".
+```
+
+## Editor Themes
+
+### Helix
 
 Copy the Helix themes:
 
@@ -101,7 +149,7 @@ The transparent variants unset full-screen editor backgrounds so the terminal
 emulator's own background, opacity, or wallpaper can show through. Menus,
 popups, statusline, selections, and cursor accents remain solid for readability.
 
-## TextMate-Compatible Themes
+### TextMate-Compatible Themes
 
 The `codex/` directory contains XML `.tmTheme` files:
 
@@ -147,7 +195,9 @@ Examples:
 --oritone-light-ansi-bright-blue
 ```
 
-## Palette Exports
+## Exports
+
+### Palette Exports
 
 | File | Purpose |
 | --- | --- |
@@ -161,6 +211,60 @@ Examples:
 | `palette/oritone-palette.html` | Browser palette preview. |
 | `palette/oritone-palette-dark.svg` | Dark GitHub theme vector palette preview. |
 | `palette/oritone-palette-light.svg` | Light GitHub theme vector palette preview. |
+
+### Colormap Exports
+
+| File | Purpose |
+| --- | --- |
+| `colormaps/paraview/oritone-colormaps.json` | Combined ParaView JSON preset. |
+| `colormaps/paraview/oritone-colormaps.xml` | Combined legacy ParaView XML preset. |
+| `colormaps/json/*.json` | Individual JSON presets. |
+| `colormaps/xml/*.xml` | Individual XML presets. |
+| `colormaps/csv/*.csv` | Normalized scalar value plus RGB float and hex. |
+| `colormaps/txt/*.txt` | 8-bit RGB triplets and hex. |
+| `colormaps/png/*.png` | Individual horizontal ramp strips. |
+| `colormaps/previews/*.svg` | Theme-aware vector previews for README rendering. |
+| `colormaps/previews/*.png` | PNG composite previews, lightness profiles, and synthetic-field examples. |
+| `colormaps/oritone_colormaps.py` | Matplotlib registration helper. |
+| `colormaps/oritone-colormaps-metadata.json` | Diagnostics and intended-use metadata. |
+| `colormaps/oritone-colormaps.html` | Browser colormap preview. |
+
+## Repository Layout
+
+```text
+codex/
+  oritone-dark.tmTheme
+  oritone-light.tmTheme
+colormaps/
+  csv/
+  json/
+  paraview/
+  png/
+  previews/
+  txt/
+  xml/
+  oritone-colormaps.html
+  oritone-colormaps-metadata.json
+  oritone_colormaps.py
+helix/
+  oritone_dark.toml
+  oritone_light.toml
+  oritone_dark_transparent.toml
+  oritone_light_transparent.toml
+palette/
+  oritone-design-tokens.json
+  oritone-palette.ase
+  oritone-palette.css
+  oritone-palette.gpl
+  oritone-palette.html
+  oritone-palette.json
+  oritone-palette.scss
+  oritone-palette-dark.svg
+  oritone-palette-light.svg
+  oritone-palette.toml
+LICENSE
+README.md
+```
 
 ## License
 

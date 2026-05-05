@@ -28,6 +28,8 @@ temp/
 .cache/
 
 # Dependency and build output from local tooling
+__pycache__/
+*.py[cod]
 node_modules/
 dist/
 build/

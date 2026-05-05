@@ -1,0 +1,169 @@
+{
+  "name": "Oritone scientific colormaps",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Scientific visualization colormaps for Oritone. The color direction references the Okabe & Ito color-blind-friendly palette.",
+  "reference": {
+    "name": "Okabe & Ito color-blind-friendly palette",
+    "url": "https://siegal.bio.nyu.edu/color-palette/"
+  },
+  "generation": {
+    "samples": "256 for sequential maps; 257 for diverging maps to include an exact midpoint sample",
+    "interpolation": "custom sampled ramps generated in OKLab with controlled lightness; exported RGB points use ParaView Lab interpolation metadata",
+    "notes": "Sequential maps are monotonic in lightness. Diverging maps use mirrored lightness around the center."
+  },
+  "maps": [
+    {
+      "key": "oritone-delta",
+      "name": "Oritone Delta",
+      "kind": "diverging",
+      "dominant_colors": 2,
+      "description": "Symmetric blue-to-warm diverging map with a high-lightness neutral center. Designed for signed anomalies, residuals, and centered scalar fields.",
+      "intended_use": "Diverging / symmetric: use for data with a meaningful zero or midpoint; set the scalar range symmetrically around that point.",
+      "stats": {
+        "samples": 257,
+        "cie_lab_lightness_min": 34.4646,
+        "cie_lab_lightness_max": 94.7934,
+        "cie_lab_lightness_span": 60.3288,
+        "delta_e76_step_mean": 1.1379,
+        "delta_e76_step_min": 0.5775,
+        "delta_e76_step_max": 4.8749,
+        "delta_e76_step_cv": 0.672,
+        "hex_start": "#255192",
+        "hex_mid": "#f7f0dd",
+        "hex_end": "#734800",
+        "center_lightness": 94.7934,
+        "endpoint_lightness_difference": 0.2925,
+        "mirror_lightness_max_difference": 0.3279,
+        "left_arm_monotonic_to_center": true,
+        "right_arm_monotonic_from_center": true
+      }
+    },
+    {
+      "key": "oritone-balance",
+      "name": "Oritone Balance",
+      "kind": "diverging",
+      "dominant_colors": 2,
+      "description": "Symmetric teal-to-rose diverging map with equalized endpoint lightness and a warm neutral center. Useful when blue/orange semantics would conflict with the data story.",
+      "intended_use": "Diverging / symmetric: signed pressure, displacement, uncertainty difference, or centered normalized quantities.",
+      "stats": {
+        "samples": 257,
+        "cie_lab_lightness_min": 32.8355,
+        "cie_lab_lightness_max": 93.6148,
+        "cie_lab_lightness_span": 60.7793,
+        "delta_e76_step_mean": 0.6722,
+        "delta_e76_step_min": 0.4498,
+        "delta_e76_step_max": 1.5068,
+        "delta_e76_step_cv": 0.4556,
+        "hex_start": "#2c556c",
+        "hex_mid": "#f4ecdc",
+        "hex_end": "#674062",
+        "center_lightness": 93.6148,
+        "endpoint_lightness_difference": 1.3962,
+        "mirror_lightness_max_difference": 2.0934,
+        "left_arm_monotonic_to_center": true,
+        "right_arm_monotonic_from_center": true
+      }
+    },
+    {
+      "key": "oritone-ember",
+      "name": "Oritone Ember",
+      "kind": "sequential",
+      "dominant_colors": 1,
+      "description": "Asymmetric warm sequential map using one dominant amber/ember hue family with monotonic lightness. High contrast without rainbow-like hue jumps.",
+      "intended_use": "Sequential / asymmetric: scalar intensity, energy, heat, flux, or positive-only quantities.",
+      "stats": {
+        "samples": 256,
+        "cie_lab_lightness_min": 11.1743,
+        "cie_lab_lightness_max": 94.2869,
+        "cie_lab_lightness_span": 83.1126,
+        "delta_e76_step_mean": 0.6673,
+        "delta_e76_step_min": 0.4264,
+        "delta_e76_step_max": 2.0649,
+        "delta_e76_step_cv": 0.6287,
+        "hex_start": "#251d10",
+        "hex_mid": "#af6e00",
+        "hex_end": "#ffeeb8",
+        "lightness_monotonic_increasing": true,
+        "lightness_negative_steps": 0,
+        "lightness_min_step": 0.303734,
+        "lightness_max_step": 0.341723
+      }
+    },
+    {
+      "key": "oritone-marine",
+      "name": "Oritone Marine",
+      "kind": "sequential",
+      "dominant_colors": 2,
+      "description": "Asymmetric blue-cyan sequential map with monotonic lightness and strong low-to-high contrast. Tuned for continuous fields where a cool scalar scale reads naturally.",
+      "intended_use": "Sequential / asymmetric: depth, density, concentration, velocity magnitude, or fields conventionally shown with cool colors.",
+      "stats": {
+        "samples": 256,
+        "cie_lab_lightness_min": 11.6761,
+        "cie_lab_lightness_max": 93.1543,
+        "cie_lab_lightness_span": 81.4782,
+        "delta_e76_step_mean": 0.6628,
+        "delta_e76_step_min": 0.403,
+        "delta_e76_step_max": 1.0556,
+        "delta_e76_step_cv": 0.3047,
+        "hex_start": "#131e37",
+        "hex_mid": "#2678ee",
+        "hex_end": "#e7ede9",
+        "lightness_monotonic_increasing": true,
+        "lightness_negative_steps": 0,
+        "lightness_min_step": 0.30545,
+        "lightness_max_step": 0.350403
+      }
+    },
+    {
+      "key": "oritone-canopy",
+      "name": "Oritone Canopy",
+      "kind": "sequential",
+      "dominant_colors": 3,
+      "description": "Asymmetric blue-green-to-amber sequential map with three dominant color regions and monotonic lightness. Emphasizes mid-to-high scalar structure while preserving order.",
+      "intended_use": "Sequential / asymmetric: ecology, terrain overlays, scalar concentration, material fraction, and positive-valued simulation results.",
+      "stats": {
+        "samples": 256,
+        "cie_lab_lightness_min": 11.9736,
+        "cie_lab_lightness_max": 93.1147,
+        "cie_lab_lightness_span": 81.1411,
+        "delta_e76_step_mean": 0.8974,
+        "delta_e76_step_min": 0.323,
+        "delta_e76_step_max": 3.4158,
+        "delta_e76_step_cv": 0.9322,
+        "hex_start": "#1a2121",
+        "hex_mid": "#448d7a",
+        "hex_end": "#fcebb5",
+        "lightness_monotonic_increasing": true,
+        "lightness_negative_steps": 0,
+        "lightness_min_step": 0.280413,
+        "lightness_max_step": 0.332869
+      }
+    },
+    {
+      "key": "oritone-fusion",
+      "name": "Oritone Fusion",
+      "kind": "sequential",
+      "dominant_colors": 4,
+      "description": "Asymmetric multi-hue sequential map moving from muted purple through blue and green into amber. Built for broad dynamic range while keeping a monotonic lightness ramp.",
+      "intended_use": "Sequential / asymmetric: general-purpose quantitative scalar fields with wide dynamic range; use when a single-hue scale is too subtle.",
+      "stats": {
+        "samples": 256,
+        "cie_lab_lightness_min": 11.6295,
+        "cie_lab_lightness_max": 93.1295,
+        "cie_lab_lightness_span": 81.5,
+        "delta_e76_step_mean": 1.2811,
+        "delta_e76_step_min": 0.4176,
+        "delta_e76_step_max": 3.5643,
+        "delta_e76_step_cv": 0.5237,
+        "hex_start": "#1f1d2b",
+        "hex_mid": "#1d82d1",
+        "hex_end": "#ffeba9",
+        "lightness_monotonic_increasing": true,
+        "lightness_negative_steps": 0,
+        "lightness_min_step": 0.273319,
+        "lightness_max_step": 0.380662
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Oritone scientific colormaps</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f7f3eb;color:#272c30;margin:2rem;line-height:1.45}.map{margin:1.5rem 0;padding:1rem;border:1px solid #d3cabe;background:#fffdf8;border-radius:10px}.bar{height:36px;border-radius:6px;border:1px solid #d3cabe}.meta{color:#525a5e;font-size:.92rem}.hex{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem}.sw{height:44px;border-radius:6px;border:1px solid #d3cabe}</style>
+<h1>Oritone scientific colormaps</h1>
+<p>MIT licensed. Color direction references the Okabe &amp; Ito color-blind-friendly palette. Sequential maps use monotonic lightness; diverging maps use a mirrored lightness profile around the center.</p>
+<section class="map"><h2>Oritone Delta</h2>
+<div class="bar" style="background:linear-gradient(to right,#255192,#2258a7,#1d5fbd,#1666d3,#076ded,#0675ff,#2a82ff,#3e8eff,#539bff,#64a7ff,#76b2ff,#87bdff,#9cc9ff,#aed4ff,#c2dffd,#e2e9ea,#f6e8c3,#f5db8d,#f5ce48,#eec200,#e0b600,#daa900,#d39c00,#cc9000,#c38300,#bb7800,#b06f00,#a46700,#975e00,#8b5700,#805000,#734800)"></div>
+<p class="meta">diverging; 2 dominant color(s). Symmetric blue-to-warm diverging map with a high-lightness neutral center. Designed for signed anomalies, residuals, and centered scalar fields.</p>
+<p class="hex">#255192 → #f7f0dd → #734800</p>
+</section>
+<section class="map"><h2>Oritone Balance</h2>
+<div class="bar" style="background:linear-gradient(to right,#2c556c,#2c5e78,#2c6885,#2b7192,#297ca1,#2686ae,#2990bb,#3599c5,#41a4d1,#4caedc,#56b9e7,#61c3f2,#83cdf0,#a4d6eb,#c3dee5,#e1e6df,#f1e3d7,#edd3d0,#e9c3c9,#e5b4c2,#e0a4bb,#d699b2,#cc8ea9,#c384a0,#b87997,#af6f8e,#a46686,#985f7f,#8a5677,#7f4f71,#73486a,#674062)"></div>
+<p class="meta">diverging; 2 dominant color(s). Symmetric teal-to-rose diverging map with equalized endpoint lightness and a warm neutral center. Useful when blue/orange semantics would conflict with the data story.</p>
+<p class="hex">#2c556c → #f4ecdc → #674062</p>
+</section>
+<section class="map"><h2>Oritone Ember</h2>
+<div class="bar" style="background:linear-gradient(to right,#251d10,#311f06,#3b2300,#422800,#4a2d00,#533200,#5b3800,#633d00,#6b4200,#744800,#7d4d00,#855300,#8e5900,#965e00,#a06500,#a96a00,#b27000,#b97800,#bf8100,#c58900,#ca9100,#cf9a00,#d4a300,#d9ad00,#deb500,#e7bc00,#efc300,#f7cc20,#fad453,#fddd74,#ffe591,#ffeeb8)"></div>
+<p class="meta">sequential; 1 dominant color(s). Asymmetric warm sequential map using one dominant amber/ember hue family with monotonic lightness. High contrast without rainbow-like hue jumps.</p>
+<p class="hex">#251d10 → #af6e00 → #ffeeb8</p>
+</section>
+<section class="map"><h2>Oritone Marine</h2>
+<div class="bar" style="background:linear-gradient(to right,#131e37,#16243f,#192948,#1b2e51,#1e345a,#213a64,#24406e,#274677,#294c81,#2c538d,#2b589b,#2b5ea9,#2b63b7,#2a69c6,#296fd6,#2775e5,#257af4,#2981ff,#328bff,#3995ff,#409efe,#4ba8fb,#55b1f8,#61bbf5,#6bc3f1,#7dcaf0,#90d0ef,#a3d6ee,#b4dced,#c5e1ec,#d5e7ea,#e7ede9)"></div>
+<p class="meta">sequential; 2 dominant color(s). Asymmetric blue-cyan sequential map with monotonic lightness and strong low-to-high contrast. Tuned for continuous fields where a cool scalar scale reads naturally.</p>
+<p class="hex">#131e37 → #2678ee → #e7ede9</p>
+</section>
+<section class="map"><h2>Oritone Canopy</h2>
+<div class="bar" style="background:linear-gradient(to right,#1a2121,#1c272a,#1e2c32,#1f323b,#213844,#233f4e,#244557,#254c60,#285363,#2c5b66,#2f6269,#326a6c,#36716e,#397971,#3d8174,#418976,#47907d,#4c9783,#539e8a,#59a591,#5fad98,#65b49e,#71baa0,#93bf88,#afc26f,#c9c54e,#e1c600,#f4ca00,#fed000,#ffd857,#fee186,#fcebb5)"></div>
+<p class="meta">sequential; 3 dominant color(s). Asymmetric blue-green-to-amber sequential map with three dominant color regions and monotonic lightness. Emphasizes mid-to-high scalar structure while preserving order.</p>
+<p class="hex">#1a2121 → #448d7a → #fcebb5</p>
+</section>
+<section class="map"><h2>Oritone Fusion</h2>
+<div class="bar" style="background:linear-gradient(to right,#1f1d2b,#272131,#302537,#38293d,#412c43,#4a314a,#533551,#5a3959,#56426e,#4f4a86,#46519c,#3c57b2,#2d5dc8,#0e62df,#006fe0,#0f7bd8,#2486cc,#3590c0,#479bb2,#56a3a5,#67ab95,#88af81,#a5b169,#c4b243,#dcb300,#ebb600,#f9ba00,#ffc32c,#ffcd56,#ffd774,#ffe08d,#ffeba9)"></div>
+<p class="meta">sequential; 4 dominant color(s). Asymmetric multi-hue sequential map moving from muted purple through blue and green into amber. Built for broad dynamic range while keeping a monotonic lightness ramp.</p>
+<p class="hex">#1f1d2b → #1d82d1 → #ffeba9</p>
+</section>
+</html>

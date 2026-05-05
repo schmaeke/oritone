@@ -110,7 +110,32 @@ register_oritone_colormaps()
 # Then use names such as "oritone-fusion" or "oritone-delta".
 ```
 
-## Editor Themes
+## Terminal and Editor Themes
+
+### Ghostty
+
+Copy the Ghostty themes:
+
+```sh
+mkdir -p ~/.config/ghostty/themes
+cp ghostty/oritone-* ~/.config/ghostty/themes/
+```
+
+Use one theme directly in `~/.config/ghostty/config.ghostty`:
+
+```ini
+theme = oritone-dark
+```
+
+Or use Ghostty light/dark theme selection:
+
+```ini
+theme = light:oritone-light,dark:oritone-dark
+```
+
+Ghostty also supports the legacy config filename
+`~/.config/ghostty/config`. Reload the configuration after copying or changing
+the theme.
 
 ### Helix
 
@@ -246,6 +271,9 @@ colormaps/
   oritone-colormaps.html
   oritone-colormaps-metadata.json
   oritone_colormaps.py
+ghostty/
+  oritone-dark
+  oritone-light
 helix/
   oritone_dark.toml
   oritone_light.toml

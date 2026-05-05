@@ -1,0 +1,32 @@
+# Oritone Light theme for Ghostty.
+# Version: 0.1.0
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Oritone contributors
+# Reference: Okabe & Ito color-blind-friendly palette.
+# https://siegal.bio.nyu.edu/color-palette/
+#
+# Oritone terminal colors: full ANSI 16-color palette plus foreground,
+# background, cursor, and selection colors.
+
+palette = 0=#272c30
+palette = 1=#a74b42
+palette = 2=#007a5a
+palette = 3=#7e6600
+palette = 4=#00699c
+palette = 5=#9b507d
+palette = 6=#087b7c
+palette = 7=#eee8dc
+palette = 8=#687075
+palette = 9=#b24600
+palette = 10=#15906f
+palette = 11=#806d00
+palette = 12=#1f759a
+palette = 13=#b46591
+palette = 14=#279697
+palette = 15=#fffdf8
+background = #f7f3eb
+foreground = #272c30
+cursor-color = #00699c
+cursor-text = #fffdf8
+selection-background = #d3cabe
+selection-foreground = #171a1c
